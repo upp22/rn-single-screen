@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TouchableOpacity, StyleSheet, Platform } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome'; // You can change the icon library and icon name as per your preference
+import Icon from 'react-native-vector-icons/FontAwesome'; 
 
 const Footer = () => {
   return (
