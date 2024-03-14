@@ -22,28 +22,21 @@ const SessionPage = () => {
         </TouchableOpacity>
       </View>
       <View style={styles.content}>
-        {/* Person image */}
         <Image source={{ uri: 'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg' }} style={styles.personImage} />
-        {/* Speaker name */}
         <Text style={styles.speakerName}>John Doe</Text>
-        {/* Designation */}
         <Text style={styles.designation}>Speaker</Text>
-        {/* Content of the speaker */}
         <Text style={styles.contentText}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida felis et nibh pulvinar, ac faucibus
           nulla tempor. Donec nec felis eu purus blandit mattis.
         </Text>
-        {/* Time with icon */}
         <View style={styles.infoContainer}>
           <Icon name="clock-o" size={20} color="black" style={styles.icon} />
           <Text style={styles.infoText}>10:00 AM - 12:00 PM</Text>
         </View>
-        {/* Address with icon */}
         <View style={styles.infoContainer}>
           <Icon name="map-marker" size={20} color="black" style={styles.icon} />
           <Text style={styles.infoText}>123 Main Street, City, Country</Text>
         </View>
-        {/* Additional image */}
         <Image source={{ uri: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Maps_Blog_hero_022x.width-1300.png' }} style={styles.additionalImage} />
       </View>
     </View>
