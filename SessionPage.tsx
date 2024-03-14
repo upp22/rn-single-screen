@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome'; // You can change the icon library and icon name as per your preference
+import Icon from 'react-native-vector-icons/FontAwesome'; 
 
 const SessionPage = () => {
   const handleBackPress = () => {
